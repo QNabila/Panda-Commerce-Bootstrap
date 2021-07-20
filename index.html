@@ -7,15 +7,16 @@
     <title>Panda Commerce</title>
     <!-- Bootstrap stylesheet-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Custom css stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <!-- header start -->
-        <nav class=" container navbar navbar-expand-lg navbar-light bg-light">
-       
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light mb-5">
               <a class="navbar-brand" href="#"> 
                 <img src="images/logo.png" alt="" class="d-inline-block align-text-top">              
-            </a>
+             </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,13 +26,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#Backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
                
@@ -39,18 +40,19 @@
       
           </nav>
         <!-- Slider -->
-          <section class="container">
+          <section class="container ps-0 pe-0 ">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <div class="row d-flex align-items-center bg-info bg-gradient p-5">
+                    <div class="row d-flex align-items-center panda-bg
+ bg-gradient p-5">
                         <div class="col-lg-7">
                             <h1>Mega LCD TV For Sports
                             </h1>
                             <P>This is the best tv in the world for people who just want to waste time in front of tv.
                             </P>
                             <h1>$1200</h1>
-                            <button class="btn btn-warning">Buy Now</button>
+                            <button class="panda-btn-buynow">Buy Now</button>
                         </div>
                         <div class="col-lg-5">
                             <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -59,14 +61,14 @@
    
                   </div>
                   <div class="carousel-item">
-                    <div class="row d-flex align-items-center bg-info bg-gradient p-5">
+                    <div class="row d-flex align-items-center panda-bg  bg-gradient p-5">
                       <div class="col-lg-7">
                           <h1>X-Box for your living room
                           </h1>
                           <P>This is the best x-box in the world for people who just want to waste time in front of fake sports.
                           </P>
                           <h1>$600</h1>
-                          <button class="btn btn-warning">Buy Now</button>
+                          <button class="panda-btn-buynow">Buy Now</button>
                       </div>
                       <div class="col-lg-5">
                           <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -75,14 +77,15 @@
 
                   </div>
                   <div class="carousel-item">
-                    <div class="row d-flex align-items-center bg-info bg-gradient p-5">
+                    <div class="row d-flex align-items-center panda-bg
+ bg-gradient p-5">
                       <div class="col-lg-7">
                           <h1>Cool Dude Headphone
                           </h1>
                           <P>This is the best headphone in the world for people who just want to waste time in front of funky world.
                           </P>
                           <h1>$420</h1>
-                          <button class="btn btn-warning">Buy Now</button>
+                          <button class="panda-btn-buynow">Buy Now</button>
                       </div>
                       <div class="col-lg-5">
                           <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -135,46 +138,56 @@
 
           </section>
           <!-- shoes section -->
-          <section class="container">
+          <section class="container" id="shoes">
             <h2>Shoes</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
               <div class="col">
-                <div class="card h-100">
+                <div class="card border-0 h-100 shadow">
                   <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">Skechers Men's Afterburn Memory</h5>
+                    <p class="card-text">100% Leather/Synthetic
+                      Imported
+                      Rubber sole
+                      Heel measures approximately 2"
+                      Lace-up sneaker featuring mesh upper with supportive overlays and padded collar
+                      Cushioned mesh tongue. Metal top eyelet
+                      Memory Foam Insole.</p>
                   </div>
-                  <div class="card-footer">
-                    <button class="btn btn-warning">
+                  <div class="m-3">
+                    <button class="panda-btn-buynow">
                       Buy Now
                     </button>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="card border-0 h-100 shadow">
                   <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title">Nike 360</h5>
+                    <p class="card-text">Imported
+                      Rubber sole
+                      Shaft measures approximately low-top from arch
+                      Memory foam
+                      Water resistant.</p>
                   </div>
-                  <div class="card-footer">
-                    <button class="btn btn-warning">
+                  <div class="m-3">
+                    <button class="panda-btn-buynow">
                       Buy Now
                     </button>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card h-100">
+                <div class="card border-0 h-100 shadow">
                   <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <h5 class="card-title">Red Airmax</h5>
+                    <p class="card-text">STRETCH MATERIAL: Upper with stretch breathable ultra light weight fabric for fast draining and cross ventilation, give excellent flexible and comfortable.</p>
                   </div>
-                  <div class="card-footer">
-                    <button class="btn btn-warning">
+                  <div class="m-3">
+                    <button class="panda-btn-buynow">
                       Buy Now
                     </button>
                   </div>
@@ -182,10 +195,75 @@
               </div>
             </div>
           </section>
+          <!-- Bags section -->
+          <section class="container my-5 ps-0 pe-0" id="Backpack">
+            <h2>Bags</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col">
+                <div class="card border-0 h-100 shadow">
+                  <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">PUMA Evercat Women's Candidate Duffel Bag</h5>
+                    <p class="card-text">100% Polyester
+                      Imported
+                      100% polyester lining
+                      zipper closure
+                      24.5" shoulder drop
+                      Hand Wash
+                      Adjustable shoudler strap</p>
+                  </div>
+                  <div class="m-3">
+                    <button class="panda-btn-buynow">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 shadow">
+                  <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Miamica Women's Travel Laundry Bag, Black/rose Gold, One Size</h5>
+                    <p class="card-text">TRAVEL LAUNDRY BAG – Must-have souvenirs, endless photos, and dirty laundry – three guarantees from your next trip. With this Miamica Laundry Bag, you’ll be able to keep your suitcase organized by keeping the dirty clothes separate.</p>
+                  </div>
+                  <div class="m-3">
+                    <button class="panda-btn-buynow">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 h-100 shadow">
+                  <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Miamica Foldable Travel Laundry Bag</h5>
+                    <p class="card-text">EXPANDABLE DESIGN – Cute and efficient, this portable laundry bag is an essential travel accessory for long trips and weekend getaways alike. It starts out small for easy packing, but unzips and opens up to hold about a week’s worth of dirty laundry.
+                    </p>
+                  </div>
+                  <div class="m-3">
+                    <button class="panda-btn-buynow">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Subscribe section -->
+          <section style="height: 300px;" class="container d-flex justify-content-center align-items-center panda-bg rounded-3" id="subscribe">
+            <div>
+              <h1>LET'S STAY IN TOUCH</h1>
+              <p>Get updates on sales, specials and more</p>
+              <input type="text" class="form-control" placeholder="Enter your email">
+              <br>
+              <button class="panda-btn-buynow my-2">Submit</button>      
+            </div>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="text-center mt-5">
+        <p><small>©2020. Panda Commerce. All rights reserved. Nabila, Bangladesh.</small></p>
     </footer>
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
